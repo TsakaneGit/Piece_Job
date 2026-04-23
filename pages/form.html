@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>Community Hands | Post Your Skill</title>
+    <!-- Google Fonts -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="../styles/form.css" />
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">🧰 Community<span>Hands</span></a>
+        <ul class="nav-links">
+          <li><a href="../index.html" class="nav-item">Home</a></li>
+          <li><a href="../index.html#about" class="nav-item">About Us</a></li>
+          <li>
+            <a href="index.html/#hire" class="nav-item hire-btn-nav">Hire</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ================= POST YOUR SKILL FORM SECTION ================= -->
+    <section class="post-skill-page">
+      <div class="container">
+        <div class="form-header">
+          <span class="section-tag">Share your talent</span>
+          <h1>Post what you're great at</h1>
+          <p>
+            Join our community of local hands — from gardening and bricklaying
+            to painting, carpentry, and more. Fill out the form below and start
+            connecting with neighbors who need your skills.
+          </p>
+        </div>
+
+        <div class="form-card">
+          <form class="skill-form" action="#" method="post">
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="fullname">Full name *</label>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="e.g., Sfiso Mahlangu"
+                required
+              />
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email">Email address *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Sfiso@example.com"
+                required
+              />
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+              <label for="phone">Phone number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+27 12 345 6789"
+              />
+            </div>
+
+            <!-- Skill / Trade -->
+            <!-- <div class="form-group">
+              <label for="skill">What is your main handwork skill? *</label>
+              <select id="skill" name="skill" required>
+                <option value="" disabled selected>Select your trade</option>
+                <option value="gardening">Gardening & Landscaping</option>
+                <option value="bricklaying">Bricklaying & Masonry</option>
+                <option value="painting">Painting & Drywall</option>
+                <option value="carpentry">Carpentry & Woodworking</option>
+                <option value="plumbing">Plumbing Basics</option>
+                <option value="electrical">Electrical (small repairs)</option>
+                <option value="handyman">General Handyman</option>
+                <option value="cleaning">Deep Cleaning & Organization</option>
+                <option value="other">Other (specify below)</option>
+              </select>
+            </div> -->
+
+            <!-- Other skill (conditional but visible for simplicity) -->
+            <div class="form-group">
+              <label for="other-skill">What is your trade</label>
+              <input
+                type="text"
+                id="other-skill"
+                name="other_skill"
+                placeholder="e.g., Grass cutting, tile installation"
+              />
+            </div>
+
+            <!-- Service area -->
+            <div class="form-group">
+              <label for="location">Service area (neighborhood / city) *</label>
+              <input
+                type="text"
+                id="location"
+                name="location"
+                placeholder="e.g., Kwamhlanga, Thembalethu"
+                required
+              />
+            </div>
+
+            <!-- Hourly rate (optional) -->
+            <div class="form-group">
+              <label for="rate">Job ratings (ZAR) — optional</label>
+              <input
+                type="text"
+                id="rate"
+                name="rate"
+                placeholder="R3500 / job"
+              />
+            </div>
+
+            <!-- Profile image preview note (simulated) -->
+            <div class="form-group">
+              <label for="photo">Upload picture </label>
+              <input type="file" id="photo" name="photo" />
+              <small class="field-hint"
+                >Add a link to a photo of yourself or your work — builds
+                trust.</small
+              >
+            </div>
+
+            <!-- Submit button -->
+            <div class="form-actions">
+              <button type="submit" class="btn-submit">Post my skill</button>
+              <button type="reset" class="btn-reset">Clear form</button>
+            </div>
+
+            <p class="form-note">
+              By submitting, you agree to our
+              <a href="#">Community Guidelines</a> and
+              <a href="#">Terms of Service</a>. Your profile will be visible to
+              neighbors looking for handwork.
+            </p>
+          </form>
+        </div>
+
+        <!-- Optional: recent posts preview -->
+        <div class="recent-skills-preview">
+          <div class="preview-header">
+            <span>✨ Recently joined hands</span>
+            <h3>Neighbors already offering skills</h3>
+          </div>
+          <div class="mini-skills-list">
+            <div class="mini-skill">Gardening & pruning — Elena, 5 yrs exp</div>
+            <div class="mini-skill">
+              Brick laying & stonework — Marcus, 10+ yrs
+            </div>
+            <div class="mini-skill">Interior painting — Sophia, 8 yrs</div>
+            <div class="mini-skill">Custom furniture — James, 12 yrs</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-brand">
+          <div class="logo">🧰 Community<span>Hands</span></div>
+          <p>
+            Building stronger communities one task at a time. From garden beds
+            to brick walls — local expertise you can trust.
+          </p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#hire">Hire a hand</a></li>
+            <li><a href="post-skill.html">Post your skill</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Safety tips</a></li>
+            <li><a href="#">Community guidelines</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Stay updated</h4>
+          <p>Get local handyman stories & tips.</p>
+          <form class="newsletter-form" action="#" method="post">
+            <input type="email" placeholder="Your email" required />
+            <button type="submit">Subscribe →</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>
+            &copy; 2025 Community Hands — connecting local work and talent. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
