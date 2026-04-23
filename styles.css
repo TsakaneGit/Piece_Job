@@ -361,6 +361,7 @@ body {
 }
 
 .worker-card {
+  width: 19rem;
   background: white;
   border-radius: 28px;
   overflow: hidden;
