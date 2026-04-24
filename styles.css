@@ -93,30 +93,25 @@ body {
   transition: all 0.2s;
 }
 
-.hire-btn-nav:hover {
+/* .hire-btn-nav:hover {
   background: #3b82f6;
   color: white;
-}
+} */
 
 /* Active state for Hire button */
-.hire-btn-nav:active {
-  background: #3b82f6;
-  color: white;
-  transform: scale(0.97);
-}
 
-.hire-btn-nav:focus {
+/* .hire-btn-nav:focus {
   background: #3b82f6;
   color: white;
   outline: none;
-}
+} */
 
-/* ========== HERO SECTION WITH 3-SECOND VIDEO BACKGROUND ========== */
+/* ========== HERO SECTION  ========== */
 .hero {
   position: relative;
   overflow: hidden;
-  height: 450px;
-  /* min-height: 100vh; */
+  height: 400px;
+  min-height: 90vh;
   display: flex;
   align-items: center;
 }
@@ -126,7 +121,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 450px;
   z-index: 0;
 }
 
@@ -251,7 +246,7 @@ body {
 
 /* ========== ABOUT SECTION ========== */
 .about {
-  padding: 96px 0;
+  padding: 0px 0;
   background: #ffffff;
 }
 
@@ -327,7 +322,7 @@ body {
 
 /* ========== WORKERS CARDS SECTION ========== */
 .workers {
-  padding: 80px 0 100px 0;
+  padding: 40px 0 100px 0;
   background: #fefefe;
 }
 
@@ -529,7 +524,6 @@ body {
 }
 
 .newsletter-form button {
-  height: 0px;
   background: #3b82f6;
   border: none;
   padding: 0 20px;
@@ -539,14 +533,14 @@ body {
   cursor: pointer;
   transition: background 0.2s;
   font-family: inherit;
+  height: 40px;
 }
-
 .newsletter-form button:hover {
   background: #2563eb;
 }
 
 .footer-bottom {
-  border-top: 1px solid #1e293b;
+  border-top: 1px solid #1c58b9;
   padding: 28px 0;
   text-align: center;
   font-size: 0.8rem;
